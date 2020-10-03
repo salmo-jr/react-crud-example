@@ -1,0 +1,21 @@
+{
+    "titulo": "Cadastro de Clientes",
+    "action": "cadastroClientes.js",
+    "campos": [
+        {"label": "Nome", "type": "text", "atributos": {"id": "nome", "name": "nome", "value":"", "required": "required"}},
+        {"label": "Telefone", "type": "tel", "atributos": {"id": "telefone", "name": "telefone", "value":""}},
+        {"label": "CPF", "type": "text", "atributos": {"id": "cpf", "name": "cpf", "value":""}},
+        {"label": "CEP", "type": "text", "atributos": {"id": "cep", "name": "cep", "value":""}},
+        {"label": "Rua", "type": "text", "atributos": {"id": "rua", "name": "rua", "value":""}},
+        {"label": "Número", "type": "text", "atributos": {"id": "numero", "name": "numero", "value":""}},
+        {"label": "Bairro", "type": "text", "atributos": {"id": "bairro", "name": "bairro", "value":""}},
+        {"label": "Cidade", "type": "text", "atributos": {"id": "cidade", "name": "cidade", "value":""}},
+        {"label": "Estado", "type": "select", "atributos": { "id": "estado", "name": "estado", "defaultValue": "sp"},
+          "opcoes": [
+            {"value": "rj", "legenda": "Rio de Janeiro"},
+            {"value": "sp", "legenda": "São Paulo"}
+          ]
+        },
+        {"label": "E-mail", "type": "email", "atributos": {"id": "email", "name": "email", "value":""}}
+    ]
+}
